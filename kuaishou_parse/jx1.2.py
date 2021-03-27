@@ -6,6 +6,7 @@ import sys
 # 忽略警告代码
 requests.packages.urllib3.disable_warnings()
 
+
 def GetRealUrl(url,n):
     try:
         headers1 = {
